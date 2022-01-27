@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/Ext_PBD"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/ea0bf444acb0dfac5506ec9e9ef4feb7/Ext_PBD.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/cd46a65854be99cb784ff54168a71191/Ext_PBD-complete.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/25400a27d24862f883347e28d10d9ce5/Ext_PBD-build.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/25400a27d24862f883347e28d10d9ce5/Ext_PBD-configure.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/25400a27d24862f883347e28d10d9ce5/Ext_PBD-download.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/25400a27d24862f883347e28d10d9ce5/Ext_PBD-install.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/25400a27d24862f883347e28d10d9ce5/Ext_PBD-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/25400a27d24862f883347e28d10d9ce5/Ext_PBD-patch.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/25400a27d24862f883347e28d10d9ce5/Ext_PBD-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Ext_PBD"
+		],
+		"name" : "Ext_PBD"
+	}
+}

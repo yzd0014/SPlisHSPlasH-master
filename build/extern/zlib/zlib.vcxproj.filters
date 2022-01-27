@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\gzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{053FA162-4AA7-3F9C-81F5-98B9A47FFFFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AC0E26AC-1795-3677-845C-6AC5DEE85313}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

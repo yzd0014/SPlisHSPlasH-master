@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/Ext_NeighborhoodSearch"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/ea0bf444acb0dfac5506ec9e9ef4feb7/Ext_NeighborhoodSearch.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/cd46a65854be99cb784ff54168a71191/Ext_NeighborhoodSearch-complete.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/5d5f5b7b254f4919453f275b042f34bd/Ext_NeighborhoodSearch-build.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/5d5f5b7b254f4919453f275b042f34bd/Ext_NeighborhoodSearch-configure.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/5d5f5b7b254f4919453f275b042f34bd/Ext_NeighborhoodSearch-download.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/5d5f5b7b254f4919453f275b042f34bd/Ext_NeighborhoodSearch-install.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/5d5f5b7b254f4919453f275b042f34bd/Ext_NeighborhoodSearch-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/5d5f5b7b254f4919453f275b042f34bd/Ext_NeighborhoodSearch-patch.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/5d5f5b7b254f4919453f275b042f34bd/Ext_NeighborhoodSearch-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Ext_NeighborhoodSearch"
+		],
+		"name" : "Ext_NeighborhoodSearch"
+	}
+}

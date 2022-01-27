@@ -1,0 +1,13 @@
+# Target labels
+ Ext_Discregrid
+# Source files and their labels
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/Ext_Discregrid
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/ea0bf444acb0dfac5506ec9e9ef4feb7/Ext_Discregrid.rule
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/cd46a65854be99cb784ff54168a71191/Ext_Discregrid-complete.rule
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-build.rule
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-configure.rule
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-download.rule
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-install.rule
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-mkdir.rule
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-patch.rule
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-update.rule

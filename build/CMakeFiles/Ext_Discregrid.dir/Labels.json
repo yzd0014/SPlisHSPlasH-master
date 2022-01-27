@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/Ext_Discregrid"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/ea0bf444acb0dfac5506ec9e9ef4feb7/Ext_Discregrid.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/cd46a65854be99cb784ff54168a71191/Ext_Discregrid-complete.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-build.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-configure.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-download.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-install.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-patch.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/85ac05cb387df43e343286752686040d/Ext_Discregrid-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Ext_Discregrid"
+		],
+		"name" : "Ext_Discregrid"
+	}
+}

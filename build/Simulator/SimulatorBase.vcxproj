@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C1D2ADAB-7EA3-3950-8504-28C3906D6D26}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>SimulatorBase</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SimulatorBase.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SimulatorBase_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SimulatorBase.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SimulatorBase</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SimulatorBase.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SimulatorBase_ms</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SimulatorBase.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SimulatorBase_rd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;USE_IMGUI;USE_THIRD_PARTY_METHODS;_CRT_SECURE_NO_DEPRECATE;EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;USE_IMGUI;USE_THIRD_PARTY_METHODS;_CRT_SECURE_NO_DEPRECATE;EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_IMGUI;USE_THIRD_PARTY_METHODS;_CRT_SECURE_NO_DEPRECATE;EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_IMGUI;USE_THIRD_PARTY_METHODS;_CRT_SECURE_NO_DEPRECATE;EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_IMGUI;USE_THIRD_PARTY_METHODS;_CRT_SECURE_NO_DEPRECATE;EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_IMGUI;USE_THIRD_PARTY_METHODS;_CRT_SECURE_NO_DEPRECATE;EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_IMGUI;USE_THIRD_PARTY_METHODS;_CRT_SECURE_NO_DEPRECATE;EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_IMGUI;USE_THIRD_PARTY_METHODS;_CRT_SECURE_NO_DEPRECATE;EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT;IMGUI_IMPL_OPENGL_LOADER_GLAD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\src\..\deps;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\imgui;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\eigen;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\NeighborhoodSearch\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\GenericParameters\include;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\Discregrid\include;C:\Users\10517\Desktop\SPlisHSPlasH-master;C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\zlib\src;C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\install\PositionBasedDynamics\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/10517/Desktop/SPlisHSPlasH-master/Simulator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/10517/Desktop/SPlisHSPlasH-master -BC:/Users/10517/Desktop/SPlisHSPlasH-master/build --check-stamp-file C:/Users/10517/Desktop/SPlisHSPlasH-master/build/Simulator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\CMakeLists.txt;C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\imgui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\build\Simulator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/10517/Desktop/SPlisHSPlasH-master/Simulator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/10517/Desktop/SPlisHSPlasH-master -BC:/Users/10517/Desktop/SPlisHSPlasH-master/build --check-stamp-file C:/Users/10517/Desktop/SPlisHSPlasH-master/build/Simulator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\CMakeLists.txt;C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\imgui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\build\Simulator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/10517/Desktop/SPlisHSPlasH-master/Simulator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/10517/Desktop/SPlisHSPlasH-master -BC:/Users/10517/Desktop/SPlisHSPlasH-master/build --check-stamp-file C:/Users/10517/Desktop/SPlisHSPlasH-master/build/Simulator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\CMakeLists.txt;C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\imgui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\build\Simulator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/10517/Desktop/SPlisHSPlasH-master/Simulator/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/10517/Desktop/SPlisHSPlasH-master -BC:/Users/10517/Desktop/SPlisHSPlasH-master/build --check-stamp-file C:/Users/10517/Desktop/SPlisHSPlasH-master/build/Simulator/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\CMakeLists.txt;C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\imgui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\10517\Desktop\SPlisHSPlasH-master\build\Simulator\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\ExporterRegistration.cpp" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\SceneConfiguration.cpp" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\SceneConfiguration.h" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\SimulatorBase.cpp" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\SimulatorBase.h" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\BoundarySimulator.cpp" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\BoundarySimulator.h" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\StaticBoundarySimulator.cpp" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\StaticBoundarySimulator.h" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\GUI\OpenGL\Simulator_OpenGL.cpp" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\GUI\OpenGL\Simulator_OpenGL.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\GUI\Simulator_GUI_Base.h" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\GUI\imgui\Simulator_GUI_imgui.cpp" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBD_Simulator_GUI_imgui.cpp" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\GUI\imgui\Simulator_GUI_imgui.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBD_Simulator_GUI_imgui.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\MiniGL.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\Selection.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\Shader.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\colormaps\colormap_jet.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\colormaps\colormap_plasma.h" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\deps\glad_gl.c" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\MiniGL.cpp" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\Shader.cpp" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\imgui\imguiParameters.h" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\imgui\imguiParameters.cpp" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\ParticleExporter_Partio.cpp" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\ParticleExporter_VTK.cpp" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_BIN.cpp" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_OBJ.cpp" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_VTK.cpp" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\ExporterBase.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\ParticleExporter_Partio.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\ParticleExporter_VTK.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_BIN.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_OBJ.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_VTK.h" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBDWrapper.cpp" />
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBDBoundarySimulator.cpp" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBDWrapper.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBDRigidBody.h" />
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBDBoundarySimulator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\ZERO_CHECK.vcxproj">
+      <Project>{1D7BB07E-23E3-32E4-9DCE-0C690BCC549C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CopyEmitterModels.vcxproj">
+      <Project>{47187169-F31B-35B2-916E-675D55309010}</Project>
+      <Name>CopyEmitterModels</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CopyImguiFonts.vcxproj">
+      <Project>{1ADAEB56-E559-3C0B-9465-BFA4F58EA845}</Project>
+      <Name>CopyImguiFonts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CopyPBDShaders.vcxproj">
+      <Project>{BCDE9448-6798-32C6-A630-2E7D23794A3B}</Project>
+      <Name>CopyPBDShaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CopySPlisHSPlasHShaders.vcxproj">
+      <Project>{3C79EE9C-ECE2-3FD4-A70C-125680965ADB}</Project>
+      <Name>CopySPlisHSPlasHShaders</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\Ext_PBD.vcxproj">
+      <Project>{0B460AAD-BE0D-359A-AFF2-AA76738660FB}</Project>
+      <Name>Ext_PBD</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\md5\MD5.vcxproj">
+      <Project>{CDDAFB76-8DD3-3BDC-BF48-59B6327E3A44}</Project>
+      <Name>MD5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\SPlisHSPlasH\SPlisHSPlasH.vcxproj">
+      <Project>{F3413AB8-F96F-3DC3-821A-D0CE757A33D1}</Project>
+      <Name>SPlisHSPlasH</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\Utilities\Utilities.vcxproj">
+      <Project>{CD00F2C8-6C6C-3D25-A3C5-3A3341C77C1C}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\glfw\src\glfw.vcxproj">
+      <Project>{EA5AB28E-2FA2-3854-B6E3-E537CB548BFC}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\imgui\imgui.vcxproj">
+      <Project>{B736F6CA-1A14-37BC-BEBF-96129C279CB3}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\partio\src\lib\partio.vcxproj">
+      <Project>{3A154DAC-9234-3088-ACBB-8A745F26C044}</Project>
+      <Name>partio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\tinyexpr\tinyexpr.vcxproj">
+      <Project>{05FF36FE-467A-3389-AF4D-4D40B252B4A8}</Project>
+      <Name>tinyexpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\extern\zlib\zlib.vcxproj">
+      <Project>{64B3E50A-3811-38D0-838D-8DCA5673327A}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

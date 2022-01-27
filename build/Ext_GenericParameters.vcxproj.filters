@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CMakeFiles\afe65a4a1976af64acdfb17957d4c062\Ext_GenericParameters-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CMakeFiles\afe65a4a1976af64acdfb17957d4c062\Ext_GenericParameters-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CMakeFiles\afe65a4a1976af64acdfb17957d4c062\Ext_GenericParameters-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CMakeFiles\afe65a4a1976af64acdfb17957d4c062\Ext_GenericParameters-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CMakeFiles\afe65a4a1976af64acdfb17957d4c062\Ext_GenericParameters-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CMakeFiles\afe65a4a1976af64acdfb17957d4c062\Ext_GenericParameters-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CMakeFiles\afe65a4a1976af64acdfb17957d4c062\Ext_GenericParameters-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CMakeFiles\cd46a65854be99cb784ff54168a71191\Ext_GenericParameters-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CMakeFiles\ea0bf444acb0dfac5506ec9e9ef4feb7\Ext_GenericParameters.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\build\CMakeFiles\Ext_GenericParameters" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{805B5E64-E0AD-38D6-88B2-E3A7381270DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\AnimationField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\AnimationFieldSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\BoundaryModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\BoundaryModel_Akinci2012.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\BoundaryModel_Bender2019.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\BoundaryModel_Koschier2017.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Emitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\EmitterSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\FluidModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\NonPressureForceRegistration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SPHKernels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\TimeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\TimeStep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\TriangleMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\NonPressureForceBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\WCSPH\SimulationDataWCSPH.cpp">
+      <Filter>Source Files\WCSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\WCSPH\TimeStepWCSPH.cpp">
+      <Filter>Source Files\WCSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PCISPH\SimulationDataPCISPH.cpp">
+      <Filter>Source Files\PCISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PCISPH\TimeStepPCISPH.cpp">
+      <Filter>Source Files\PCISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PBF\SimulationDataPBF.cpp">
+      <Filter>Source Files\PBF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PBF\TimeStepPBF.cpp">
+      <Filter>Source Files\PBF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PBF\TimeIntegration.cpp">
+      <Filter>Source Files\PBF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\IISPH\SimulationDataIISPH.cpp">
+      <Filter>Source Files\IISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\IISPH\TimeStepIISPH.cpp">
+      <Filter>Source Files\IISPH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\DFSPH\SimulationDataDFSPH.cpp">
+      <Filter>Source Files\DFSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\DFSPH\TimeStepDFSPH.cpp">
+      <Filter>Source Files\DFSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PF\SimulationDataPF.cpp">
+      <Filter>Source Files\PF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PF\TimeStepPF.cpp">
+      <Filter>Source Files\PF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\ICSPH\SimulationDataICSPH.cpp">
+      <Filter>Source Files\ICSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\ICSPH\TimeStepICSPH.cpp">
+      <Filter>Source Files\ICSPH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\ViscosityBase.cpp">
+      <Filter>Source Files\Viscosity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_XSPH.cpp">
+      <Filter>Source Files\Viscosity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Standard.cpp">
+      <Filter>Source Files\Viscosity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Bender2017.cpp">
+      <Filter>Source Files\Viscosity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Peer2015.cpp">
+      <Filter>Source Files\Viscosity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Peer2016.cpp">
+      <Filter>Source Files\Viscosity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Takahashi2015.cpp">
+      <Filter>Source Files\Viscosity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Weiler2018.cpp">
+      <Filter>Source Files\Viscosity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTensionBase.cpp">
+      <Filter>Source Files\SurfaceTension</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTension_Becker2007.cpp">
+      <Filter>Source Files\SurfaceTension</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTension_Akinci2013.cpp">
+      <Filter>Source Files\SurfaceTension</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTension_He2014.cpp">
+      <Filter>Source Files\SurfaceTension</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTension_ZorillaRitter2020.cpp">
+      <Filter>Source Files\SurfaceTension</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Vorticity\VorticityBase.cpp">
+      <Filter>Source Files\Vorticity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Vorticity\MicropolarModel_Bender2017.cpp">
+      <Filter>Source Files\Vorticity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Vorticity\VorticityConfinement.cpp">
+      <Filter>Source Files\Vorticity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Drag\DragBase.cpp">
+      <Filter>Source Files\Drag</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Drag\DragForce_Gissler2017.cpp">
+      <Filter>Source Files\Drag</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Drag\DragForce_Macklin2014.cpp">
+      <Filter>Source Files\Drag</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Elasticity\ElasticityBase.cpp">
+      <Filter>Source Files\Elasticity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Elasticity\Elasticity_Becker2009.cpp">
+      <Filter>Source Files\Elasticity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Elasticity\Elasticity_Peer2018.cpp">
+      <Filter>Source Files\Elasticity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Elasticity\Elasticity_Kugelstadt2021.cpp">
+      <Filter>Source Files\Elasticity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\CholeskyAVXSolver.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\DebugTools.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\MathFunctions.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\GaussQuadrature.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\PoissonDiskSampling.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\RegularTriangleSampling.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\RegularSampling2D.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\SceneLoader.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\VolumeSampling.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\SDFFunctions.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\SimpleQuadrature.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\WindingNumbers.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\NeighborhoodSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\AnimationField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\AnimationFieldSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\BoundaryModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\BoundaryModel_Akinci2012.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\BoundaryModel_Bender2019.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\BoundaryModel_Koschier2017.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Emitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\EmitterSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\FluidModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\RigidBodyObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SPHKernels.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\StaticRigidBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\TimeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\TimeStep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\TriangleMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\NonPressureForceBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\WCSPH\SimulationDataWCSPH.h">
+      <Filter>Header Files\WCSPH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\WCSPH\TimeStepWCSPH.h">
+      <Filter>Header Files\WCSPH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PCISPH\SimulationDataPCISPH.h">
+      <Filter>Header Files\PCISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PCISPH\TimeStepPCISPH.h">
+      <Filter>Header Files\PCISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PBF\SimulationDataPBF.h">
+      <Filter>Header Files\PBF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PBF\TimeStepPBF.h">
+      <Filter>Header Files\PBF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PBF\TimeIntegration.h">
+      <Filter>Header Files\PBF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\IISPH\SimulationDataIISPH.h">
+      <Filter>Header Files\IISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\IISPH\TimeStepIISPH.h">
+      <Filter>Header Files\IISPH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\DFSPH\SimulationDataDFSPH.h">
+      <Filter>Header Files\DFSPH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\DFSPH\TimeStepDFSPH.h">
+      <Filter>Header Files\DFSPH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PF\SimulationDataPF.h">
+      <Filter>Header Files\PF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\PF\TimeStepPF.h">
+      <Filter>Header Files\PF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\ICSPH\SimulationDataICSPH.h">
+      <Filter>Header Files\ICSPH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\ICSPH\TimeStepICSPH.h">
+      <Filter>Header Files\ICSPH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\ViscosityBase.h">
+      <Filter>Header Files\Viscosity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_XSPH.h">
+      <Filter>Header Files\Viscosity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Standard.h">
+      <Filter>Header Files\Viscosity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Bender2017.h">
+      <Filter>Header Files\Viscosity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Peer2015.h">
+      <Filter>Header Files\Viscosity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Peer2016.h">
+      <Filter>Header Files\Viscosity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Takahashi2015.h">
+      <Filter>Header Files\Viscosity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Viscosity\Viscosity_Weiler2018.h">
+      <Filter>Header Files\Viscosity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTensionBase.h">
+      <Filter>Header Files\SurfaceTension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTension_Becker2007.h">
+      <Filter>Header Files\SurfaceTension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTension_Akinci2013.h">
+      <Filter>Header Files\SurfaceTension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTension_He2014.h">
+      <Filter>Header Files\SurfaceTension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTension_ZorillaRitter2020_haltonVec323.h">
+      <Filter>Header Files\SurfaceTension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\SurfaceTension\SurfaceTension_ZorillaRitter2020.h">
+      <Filter>Header Files\SurfaceTension</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Vorticity\VorticityBase.h">
+      <Filter>Header Files\Vorticity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Vorticity\MicropolarModel_Bender2017.h">
+      <Filter>Header Files\Vorticity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Vorticity\VorticityConfinement.h">
+      <Filter>Header Files\Vorticity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Drag\DragBase.h">
+      <Filter>Header Files\Drag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Drag\DragForce_Gissler2017.h">
+      <Filter>Header Files\Drag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Drag\DragForce_Macklin2014.h">
+      <Filter>Header Files\Drag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Elasticity\ElasticityBase.h">
+      <Filter>Header Files\Elasticity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Elasticity\Elasticity_Becker2009.h">
+      <Filter>Header Files\Elasticity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Elasticity\Elasticity_Peer2018.h">
+      <Filter>Header Files\Elasticity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Elasticity\Elasticity_Kugelstadt2021.h">
+      <Filter>Header Files\Elasticity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\AVX_math.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\CholeskyAVXSolver.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\DebugTools.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\MathFunctions.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\GaussQuadrature.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\MatrixFreeSolver.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\SurfaceSampling.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\PoissonDiskSampling.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\RegularTriangleSampling.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\RegularSampling2D.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\SceneLoader.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\VolumeSampling.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\SDFFunctions.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\SimpleQuadrature.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\Utilities\WindingNumbers.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\SPlisHSPlasH\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{053FA162-4AA7-3F9C-81F5-98B9A47FFFFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DFSPH">
+      <UniqueIdentifier>{4087B9EC-113D-3CBC-9169-C6F9A4A42BDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drag">
+      <UniqueIdentifier>{CAC4233C-FC9D-3EE0-8AEA-9424E02EDEDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Elasticity">
+      <UniqueIdentifier>{E14468BC-6BB4-39D7-B4BA-FEB5C120D4CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ICSPH">
+      <UniqueIdentifier>{795281DF-C604-37F5-9520-5CFBF75BF11A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IISPH">
+      <UniqueIdentifier>{9D358CF3-8855-3939-AE57-17280C49C802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PBF">
+      <UniqueIdentifier>{D8D92F9F-5B21-34B7-B5FF-EDE32B6FCF5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PCISPH">
+      <UniqueIdentifier>{D076686B-1A8F-3082-BDDD-684298CEC0C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PF">
+      <UniqueIdentifier>{BF7C6CE9-963A-34E3-8275-7EC05F737453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SurfaceTension">
+      <UniqueIdentifier>{0F662DC5-B53B-3ECA-8EFC-081DA8813987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{ADF1D10D-6E9C-3AFE-8CE2-91528B1F7ED6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Viscosity">
+      <UniqueIdentifier>{88090C52-9BED-31A6-BEBA-57BFC7A3DE92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vorticity">
+      <UniqueIdentifier>{017B23AE-7005-38B5-A944-CDD8FED7E11E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WCSPH">
+      <UniqueIdentifier>{3ECD5894-BA06-384E-A122-D027C6AC6F7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AC0E26AC-1795-3677-845C-6AC5DEE85313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DFSPH">
+      <UniqueIdentifier>{0D65FA2E-EE54-3C1D-9DD4-F5A46D3C8EF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drag">
+      <UniqueIdentifier>{67602A21-8FCE-3EA0-809E-7209A4264F20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Elasticity">
+      <UniqueIdentifier>{0C50A4F0-E5BE-374A-B225-20BB50C835E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ICSPH">
+      <UniqueIdentifier>{A9FB3420-50DE-3E6C-A119-7FDB5AFF9555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IISPH">
+      <UniqueIdentifier>{F9654409-C143-3529-812A-033BF32A08E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PBF">
+      <UniqueIdentifier>{3BC5D365-5ED8-32FC-BBF7-0988012C6E95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PCISPH">
+      <UniqueIdentifier>{D7E74FFE-A662-3806-953F-F596A9835AA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PF">
+      <UniqueIdentifier>{2EABE680-60AC-35FD-9B42-32D877E702F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SurfaceTension">
+      <UniqueIdentifier>{52C267D4-3911-36E3-997A-59B1BF9E12AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{71264DD4-52D9-3BA8-BE55-C12803531CBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Viscosity">
+      <UniqueIdentifier>{8992EE83-7FB2-37C6-9DF0-F8D5178FAA29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vorticity">
+      <UniqueIdentifier>{B6B943F3-0CD4-3709-B24D-3E5E1B580D49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WCSPH">
+      <UniqueIdentifier>{AB1515ED-929D-387E-B3BB-2EDC4033EF8F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

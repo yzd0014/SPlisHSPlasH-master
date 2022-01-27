@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/Ext_GenericParameters"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/ea0bf444acb0dfac5506ec9e9ef4feb7/Ext_GenericParameters.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/cd46a65854be99cb784ff54168a71191/Ext_GenericParameters-complete.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/afe65a4a1976af64acdfb17957d4c062/Ext_GenericParameters-build.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/afe65a4a1976af64acdfb17957d4c062/Ext_GenericParameters-configure.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/afe65a4a1976af64acdfb17957d4c062/Ext_GenericParameters-download.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/afe65a4a1976af64acdfb17957d4c062/Ext_GenericParameters-install.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/afe65a4a1976af64acdfb17957d4c062/Ext_GenericParameters-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/afe65a4a1976af64acdfb17957d4c062/Ext_GenericParameters-patch.rule"
+		},
+		{
+			"file" : "C:/Users/10517/Desktop/SPlisHSPlasH-master/build/CMakeFiles/afe65a4a1976af64acdfb17957d4c062/Ext_GenericParameters-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Ext_GenericParameters"
+		],
+		"name" : "Ext_GenericParameters"
+	}
+}

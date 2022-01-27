@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Tools\PartioViewer\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Tools\PartioViewer\PartioViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Tools\PartioViewer\GUI\OpenGL\PartioViewer_OpenGL.cpp">
+      <Filter>Source Files\GUI\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Tools\PartioViewer\GUI\imgui\PartioViewer_GUI_imgui.cpp">
+      <Filter>Source Files\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\toojpeg\toojpeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\deps\glad_gl.c">
+      <Filter>Source Files\GUI\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\MiniGL.cpp">
+      <Filter>Source Files\GUI\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\Shader.cpp">
+      <Filter>Source Files\GUI\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\imgui\imguiParameters.cpp">
+      <Filter>Source Files\GUI\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Tools\PartioViewer\PartioViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Tools\PartioViewer\GUI\OpenGL\PartioViewer_OpenGL.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Tools\PartioViewer\GUI\PartioViewer_GUI_Base.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Tools\PartioViewer\GUI\imgui\PartioViewer_GUI_imgui.h">
+      <Filter>Header Files\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\toojpeg\toojpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\MiniGL.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\Selection.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\Shader.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\colormaps\colormap_jet.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\colormaps\colormap_plasma.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\imgui\imguiParameters.h">
+      <Filter>Header Files\GUI\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Tools\PartioViewer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{053FA162-4AA7-3F9C-81F5-98B9A47FFFFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{C5E64069-2295-3CB6-8D1F-E277BF2148F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\OpenGL">
+      <UniqueIdentifier>{24711CF2-DFF0-3BA2-BE5B-87CA777CFCCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\imgui">
+      <UniqueIdentifier>{27FF7DAC-F6B0-3199-A8B4-0BED972342D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AC0E26AC-1795-3677-845C-6AC5DEE85313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{C1958223-D878-38A8-874C-B745A150FCC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\OpenGL">
+      <UniqueIdentifier>{F9F9FAA1-74CC-3922-815A-591D369C584D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\imgui">
+      <UniqueIdentifier>{FCF6B5FB-6539-3565-8B3A-F0572FC98E22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

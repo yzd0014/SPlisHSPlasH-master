@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\ExporterRegistration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\SceneConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\SimulatorBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\BoundarySimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\StaticBoundarySimulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\GUI\OpenGL\Simulator_OpenGL.cpp">
+      <Filter>Source Files\GUI\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\GUI\imgui\Simulator_GUI_imgui.cpp">
+      <Filter>Source Files\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBD_Simulator_GUI_imgui.cpp">
+      <Filter>Source Files\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\extern\glfw\deps\glad_gl.c">
+      <Filter>Source Files\GUI\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\MiniGL.cpp">
+      <Filter>Source Files\GUI\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\Shader.cpp">
+      <Filter>Source Files\GUI\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\imgui\imguiParameters.cpp">
+      <Filter>Source Files\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\ParticleExporter_Partio.cpp">
+      <Filter>Source Files\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\ParticleExporter_VTK.cpp">
+      <Filter>Source Files\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_BIN.cpp">
+      <Filter>Source Files\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_OBJ.cpp">
+      <Filter>Source Files\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_VTK.cpp">
+      <Filter>Source Files\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBDWrapper.cpp">
+      <Filter>Source Files\PBD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBDBoundarySimulator.cpp">
+      <Filter>Source Files\PBD</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\SceneConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\SimulatorBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\BoundarySimulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\StaticBoundarySimulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\GUI\OpenGL\Simulator_OpenGL.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\GUI\Simulator_GUI_Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\GUI\imgui\Simulator_GUI_imgui.h">
+      <Filter>Header Files\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBD_Simulator_GUI_imgui.h">
+      <Filter>Header Files\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\MiniGL.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\Selection.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\Shader.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\colormaps\colormap_jet.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\OpenGL\colormaps\colormap_plasma.h">
+      <Filter>Header Files\GUI\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\GUI\imgui\imguiParameters.h">
+      <Filter>Header Files\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\ExporterBase.h">
+      <Filter>Header Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\ParticleExporter_Partio.h">
+      <Filter>Header Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\ParticleExporter_VTK.h">
+      <Filter>Header Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_BIN.h">
+      <Filter>Header Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_OBJ.h">
+      <Filter>Header Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\Exporter\RigidBodyExporter_VTK.h">
+      <Filter>Header Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBDWrapper.h">
+      <Filter>Header Files\PBD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBDRigidBody.h">
+      <Filter>Header Files\PBD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\PositionBasedDynamicsWrapper\PBDBoundarySimulator.h">
+      <Filter>Header Files\PBD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\10517\Desktop\SPlisHSPlasH-master\Simulator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{053FA162-4AA7-3F9C-81F5-98B9A47FFFFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exporter">
+      <UniqueIdentifier>{8734FEA9-F8E7-3B37-983B-4ADE38ADBFF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{C5E64069-2295-3CB6-8D1F-E277BF2148F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\OpenGL">
+      <UniqueIdentifier>{24711CF2-DFF0-3BA2-BE5B-87CA777CFCCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\imgui">
+      <UniqueIdentifier>{27FF7DAC-F6B0-3199-A8B4-0BED972342D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PBD">
+      <UniqueIdentifier>{912FFDC3-7BCD-3222-B12C-7AD59043FA3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AC0E26AC-1795-3677-845C-6AC5DEE85313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exporter">
+      <UniqueIdentifier>{C1585900-CE21-319C-BF6C-B39398876C94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{C1958223-D878-38A8-874C-B745A150FCC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\OpenGL">
+      <UniqueIdentifier>{F9F9FAA1-74CC-3922-815A-591D369C584D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\imgui">
+      <UniqueIdentifier>{FCF6B5FB-6539-3565-8B3A-F0572FC98E22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PBD">
+      <UniqueIdentifier>{4D2CE6A0-7B99-33E4-9726-50AB54D5A956}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
