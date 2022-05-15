@@ -265,6 +265,18 @@ void Viscosity_Standard::step()
 				// Viscosity
 				const Real density_j = model->getDensity(neighborIndex);
 				const Vector3r xixj = xi - xj;
+				/*
+				if (i == 47 && neighborIndex == 48)
+				{
+					Vector3r fi = model->getMass(i) * d * m_viscosity * (model->getMass(neighborIndex) / density_j) * (vi - vj).dot(xixj) / (xixj.squaredNorm() + 0.01 * h2) * sim->gradW(xi - xj);
+					std::cout << "47: " << fi << std::endl;
+				}
+				else if (i == 48 && neighborIndex == 47)
+				{
+					Vector3r fi = model->getMass(i) * d * m_viscosity * (model->getMass(neighborIndex) / density_j) * (vi - vj).dot(xixj) / (xixj.squaredNorm() + 0.01 * h2) * sim->gradW(xi - xj);
+					std::cout << "48: " << fi << std::endl;
+				}
+				*/
 				ai += d * m_viscosity * (model->getMass(neighborIndex) / density_j) * (vi - vj).dot(xixj) / (xixj.squaredNorm() + 0.01*h2) * sim->gradW(xi - xj);
 			)
 
@@ -274,6 +286,7 @@ void Viscosity_Standard::step()
  			if (m_boundaryViscosity != 0.0)
  			{
  				if (sim->getBoundaryHandlingMethod() == BoundaryHandlingMethods::Akinci2012)
+				//if (true)
  				{
  					forall_boundary_neighbors(
  						const Vector3r &vj = bm_neighbor->getVelocity(neighborIndex);

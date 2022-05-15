@@ -160,6 +160,13 @@ void TimeStep::computeDensities(const unsigned int fluidModelIndex)
 			Real &density = model->getDensity(i);
 
 			// Compute current density for particle i
+			/*
+			if (i == 305)
+			{
+				std::cout << "weight: " << std::setprecision(10) << sim->W_zero() << std::endl;
+				std::cout << "mass: " << std::setprecision(10) << density0 * model->getVolume(i) << std::endl;
+			}
+			*/
 			density = model->getVolume(i) * sim->W_zero();
 			const Vector3r &xi = model->getPosition(i);
 
@@ -167,6 +174,13 @@ void TimeStep::computeDensities(const unsigned int fluidModelIndex)
 			// Fluid
 			//////////////////////////////////////////////////////////////////////////
 			forall_fluid_neighbors(
+				/*
+				if (i == 305)
+				{
+					std::cout << "weight: " << std::setprecision(10) << sim->W(xi - xj) << std::endl;
+					std::cout << "mass: " << std::setprecision(10) << density0 * fm_neighbor->getVolume(neighborIndex) << std::endl;
+				}
+				*/
 				density += fm_neighbor->getVolume(neighborIndex) * sim->W(xi - xj);
 			);
 

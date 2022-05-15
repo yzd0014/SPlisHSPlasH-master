@@ -2601,6 +2601,7 @@ void SimulatorBase::initVolumeMap(std::vector<Vector3r> &x, std::vector<unsigned
 			double res = 0.0;
 			if (sim2D)
 				res = 0.8 * SimpleQuadrature::integrate(integrand);
+				//res = SimpleQuadrature::integrate(integrand);
 			else
 				res = 0.8 * GaussQuadrature::integrate(integrand, int_domain, 30);
 
