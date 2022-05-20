@@ -1,7 +1,11 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.22/Modules/FindGit.cmake
-C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.23/Modules/FindPackageMessage.cmake
+C:/Users/10517/Desktop/SPlisHSPlasH-master/.git/HEAD
+C:/Users/10517/Desktop/SPlisHSPlasH-master/.git/refs/heads/main
 C:/Users/10517/Desktop/SPlisHSPlasH-master/CMake/GetGitRevisionDescription.cmake
+C:/Users/10517/Desktop/SPlisHSPlasH-master/CMake/GetGitRevisionDescription.cmake.in
 C:/Users/10517/Desktop/SPlisHSPlasH-master/Utilities/CMakeLists.txt
 C:/Users/10517/Desktop/SPlisHSPlasH-master/Utilities/Version.h.in
+C:/Users/10517/Desktop/SPlisHSPlasH-master/build/Utilities/CMakeFiles/git-data/grabRef.cmake

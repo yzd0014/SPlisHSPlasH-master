@@ -11,6 +11,7 @@
 #include "catch.hpp"
 #include <SPlisHSPlasH/Vorticity/MicropolarModel_Bender2017.h>
 #include <SPlisHSPlasH/Viscosity/Viscosity_Weiler2018.h>
+#include <omp.h>
 
 
 // Enable memory leak detection

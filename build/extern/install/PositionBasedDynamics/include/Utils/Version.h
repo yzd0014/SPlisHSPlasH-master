@@ -7,10 +7,10 @@
 
 #define GIT_SHA1 "67cea4478d58de55f64f78fcfea16629bfb79152"
 #define GIT_REFSPEC ""
-#define GIT_LOCAL_STATUS "DIRTY"
+#define GIT_LOCAL_STATUS "CLEAN"
 
 #ifdef DL_OUTPUT
-#pragma WARNING(Local changes not committed.)
+
 #endif
 
 #endif
