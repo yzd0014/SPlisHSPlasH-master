@@ -7,7 +7,7 @@
 		"colorMapType": 1,
 		"numberOfStepsPerRenderUpdate": 4,
 		"density0": 1000, 
-		"simulationMethod": 0,
+		"simulationMethod": 3,
 		"gravitation": [0,-9.81,0], 
 		"cflMethod": 1, 
 		"cflFactor": 1,

@@ -492,6 +492,7 @@ void TimeStepIISPH::computePressureAccels(const unsigned int fluidModelIndex)
 			//////////////////////////////////////////////////////////////////////////
 			// Boundary
 			//////////////////////////////////////////////////////////////////////////
+			//const Real dpj = m_simulationData.getPressure(fluidModelIndex, i);
 			if (sim->getBoundaryHandlingMethod() == BoundaryHandlingMethods::Akinci2012)
 			{
 				forall_boundary_neighbors(
@@ -511,7 +512,8 @@ void TimeStepIISPH::computePressureAccels(const unsigned int fluidModelIndex)
 			else if (sim->getBoundaryHandlingMethod() == BoundaryHandlingMethods::Bender2019)
 			{
 				forall_volume_maps(
-					const Vector3r a = Vj * dpi* sim->gradW(xi - xj);
+					//const Vector3r a = Vj * (dpi+dpj) * sim->gradW(xi - xj);
+					const Vector3r a = Vj * dpi * sim->gradW(xi - xj);
 					ai -= a;
 					bm_neighbor->addForce(xj, model->getMass(i) * a);
 				);

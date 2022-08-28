@@ -31,22 +31,24 @@
 *.out
 *.app
 
-
-build/x64/
-build/Simulator/SPHSimulator.dir/
-build/Simulator/SimulatorBase.dir/
-*.slo
-*.lo
-*.o
-*.obj
-*.pdb
-*.tlog
-*.recipe
-*.log
-*.ilk
-.vs/
-build/extern/CompactNSearch/
-build/extern/Discregrid/
-build/extern/GenericParameters/
-build/extern/PositionBasedDynamics/
-bin/
+build/*
+bin/*
+Cache
+# build/x64/
+# build/Simulator/SPHSimulator.dir/
+# build/Simulator/SimulatorBase.dir/
+# *.slo
+# *.lo
+# *.o
+# *.obj
+# *.pdb
+# *.tlog
+# *.recipe
+# *.log
+# *.ilk
+# .vs/
+# build/extern/CompactNSearch/
+# build/extern/Discregrid/
+# build/extern/GenericParameters/
+# build/extern/PositionBasedDynamics/
+# bin/

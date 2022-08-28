@@ -130,9 +130,10 @@ void TimeStepPBF::step()
 			}
 		}
 	}
-
+	
 	for (unsigned int fluidModelIndex = 0; fluidModelIndex < nModels; fluidModelIndex++)
 		computeDensities(fluidModelIndex);
+		
 	sim->computeNonPressureForces();
 
 	for (unsigned int fluidModelIndex = 0; fluidModelIndex < nModels; fluidModelIndex++)
@@ -189,7 +190,7 @@ void TimeStepPBF::pressureSolve()
 
 			// Maximal allowed density fluctuation
 			const Real eta = m_maxError * static_cast<Real>(0.01) * density0;  // maxError is given in percent
-			chk = chk && (avg_density_err <= eta);
+   			chk = chk && (avg_density_err <= eta);
 		}
 		m_iterations++;
 	}
@@ -264,7 +265,7 @@ void TimeStepPBF::pressureSolveIteration(const unsigned int fluidModelIndex, Rea
 
 			// Evaluate constraint function
 			const Real C = std::max(density - static_cast<Real>(1.0), static_cast<Real>(0.0));			// clamp to prevent particle clumping at surface
-
+			//const Real C = density;
 			if (C != 0.0)
 			{
 				// Compute gradients dC/dx_j 
@@ -363,7 +364,8 @@ void TimeStepPBF::pressureSolveIteration(const unsigned int fluidModelIndex, Rea
 			else   // Bender2019
 			{
 				forall_volume_maps(
-					const Vector3r gradC_j = -Vj * sim->gradW(xi - xj);	
+					const Vector3r gradC_j = -Vj * sim->gradW(xi - xj);
+					//if (i == 114) std::cout << "Vj=" << Vj << std::endl;
 					const Vector3r dx = m_simulationData.getLambda(fluidModelIndex, i) * gradC_j;
 					corr -= dx;
 					bm_neighbor->addForce(xj, model->getMass(i) * dx * invH2);
